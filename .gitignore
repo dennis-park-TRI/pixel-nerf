@@ -1,24 +1,39 @@
-# Editors
-.vscode/
-.idea/
+# output dir
+output/
+wandb/
 
-# Vagrant
-.vagrant/
+# cluster hostfiles
+hostfiles/
 
-# Mac/OSX
-.DS_Store
+# Data files
+*.jpg
+*.png
+*.txt
+*.avi
+*.mp4
 
-# Windows
-Thumbs.db
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
 
-# Source for the following rules: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+*.npz
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
 *.swp
+*~
 
-# Custom
 checkpoints/
-visuals/
-logs/
